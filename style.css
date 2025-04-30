@@ -1,0 +1,59 @@
+body{
+    direction: rtl;
+    background-color: #431a67;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+#container{
+    margin: 50px;
+    padding: 20px;
+}
+h1{
+    font-size: 50px;
+}
+#date{
+    font-size:25px ;
+    margin-bottom: 20px;
+}
+#prayers-times{
+    display: flex;
+    justify-content: space-around;
+}
+#prayer-box{
+    background: white;
+    color: black;
+    width:150px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 24px;
+    border-radius: 15px;
+}
+#prayer-name{
+    background:  #6f3f99;
+    padding: 5px;
+    color: white;
+    border-radius: 15px;
+}
+#prayer-time{
+    margin-top: 15px;
+    font-weight: bold;
+}
+#city-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+#cities{
+    width: 200px;
+    height: 40px;
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 15px;
+    background: none;
+    color: white;
+}
+
+#cities option{
+    background: #6f3f99;
+}
